@@ -21,9 +21,6 @@
 
 这个世界，需要更多的英雄。
 
-## 在线阅读
-
-<https://kivy-cn.github.io/Stanford-CS-229-CN>
 
 ## 贡献指南
 
