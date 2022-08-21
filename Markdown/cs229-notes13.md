@@ -28,13 +28,13 @@ CS229 Lecture notes
 前面关于强化学习(Reinforcement Learning)的章节中，我们定义了马尔科夫决策过程(Markov Decision Processes，缩写为MDPs)，还涉及到了简单情景下的值迭代(Value Iteration)和策略迭代(Policy Iteration)。还具体介绍了**最优贝尔曼方程(optimal Bellman equation)，** 这个方程定义了对应最优策略(optimal policy)$\pi^*$的最优值函数(optimal value function)$V^{\pi^*}$。
 
 $$
-V^{\pi^*}(s)=R(s)+\max_{a \in \mathcal{A}} \gamma \sum_{s' \in \mathcal{S}} P_{sa}(s')V^{\pi^*}(s')
+V^{\pi^*}(s)=R(s)+\max_{a \in \mathcal{A}} \gamma \sum_{s' \in \mathcal{S}} P_{sa}(s')V^{\pi^*}}(s')
 $$
 
 通过优化值函数，就可以恢复最优策略$\pi^*$:
 
 $$
-\pi^*(s)=\arg\max_{a\in \mathcal{A}} \sum_{s'\in \mathcal{S}} P_{sa} (s')V^{\pi^*}(s')
+\pi^*(s)=\arg\max_{a\in \mathcal{A}} \sum_{s'\in \mathcal{S}} P_{sa} (s')V^{\pi^*}}(s')
 $$
 
 本章的讲义将会介绍一个更通用的情景:
